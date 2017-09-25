@@ -5,6 +5,7 @@ unset PATH
 PATH=$HOME/bin
 PATH=$PATH:$HOME/.zsh/bin
 PATH=$PATH:/usr/local/bin
+PATH=$PATH:/usr/local/bin/composer
 PATH=$PATH:/usr/local/sbin
 PATH=$PATH:/usr/local/opt/srm/bin
 PATH=$PATH:$SYSTEM_PATH

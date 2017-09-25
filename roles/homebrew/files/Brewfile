@@ -9,6 +9,8 @@ tap 'homebrew/core'
 tap 'homebrew/dupes'
 tap 'homebrew/services'
 tap 'homebrew/versions'
+tap "caskroom/fonts"
+tap "homebrew/php"
 
 brew "readline"
 brew "abook"
@@ -43,6 +45,7 @@ brew "libgcrypt"
 brew "libksba"
 brew "pth"
 brew "dirmngr"
+brew "dnsmasq", restart_service: true
 brew "openssl"
 brew "elinks"
 brew "lame"
@@ -69,7 +72,6 @@ brew "gdk-pixbuf"
 brew "ghc"
 brew "gifsicle"
 brew "sqlite"
-brew "python"
 brew "gmime"
 brew "gnu-sed", args: ["with-default-names"]
 brew "libtasn1"
@@ -122,7 +124,7 @@ brew "msmtp"
 brew "tokyo-cabinet"
 brew "mutt", args: ["HEAD"]
 brew "neovim"
-brew "nginx"
+brew "nginx", restart_service: true
 brew "node"
 brew "talloc"
 brew "xapian"
@@ -164,6 +166,8 @@ brew "wget"
 brew "yarn"
 brew "ykpers"
 brew "zsh"
+brew "homebrew/php/composer"
+brew "homebrew/php/php71"
 
 cask "alfred"
 cask "contexts"

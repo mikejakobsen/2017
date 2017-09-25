@@ -156,3 +156,6 @@
 [submodule "roles/dotfiles/files/.vim/pack/bundle/start/vim-reason"]
 	path = roles/dotfiles/files/.vim/pack/bundle/start/vim-reason
 	url = https://github.com/reasonml/vim-reason.git
+[submodule "roles/dotfiles/files/.vim/pack/bundle/start/vim-rails"]
+	path = roles/dotfiles/files/.vim/pack/bundle/start/vim-rails
+	url = https://github.com/tpope/vim-rails.git
