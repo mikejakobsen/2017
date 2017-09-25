@@ -19,15 +19,6 @@ defaults write com.apple.systemuiserver menuExtras -array \
 # [10.11.1] Show the ~/Library folder
 chflags nohidden ~/Library
 
-# [10.9] Misc `systemsetup` settings: see `man systemsetup`
-sudo systemsetup -settimezone US/Pacific
-sudo systemsetup -setusingnetworktime on
-sudo systemsetup -setcomputersleep Never
-sudo systemsetup -setdisplaysleep 15
-sudo systemsetup -setharddisksleep Never
-sudo systemsetup -setrestartfreeze on
-sudo systemsetup -setremoteappleevents off
-
 # [10.9] Disable the sudden motion sensor as it’s not useful for SSDs
 # [Probably useless; no way to verify this command works]
 sudo pmset -a sms 0

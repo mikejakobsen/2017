@@ -3,7 +3,7 @@ if v:progname == 'vi'
 endif
 
 let mapleader="\<Space>"
-let maplocalleader="\\"
+let maplocalleader=","
 
 " Extension -> filetype mappings.
 let filetype_m='objc'
